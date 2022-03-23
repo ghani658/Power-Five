@@ -221,6 +221,51 @@ footer .border-bottom {
 footer p span {
     color: #b47a6e;
 }
+img.banner-img {
+    height: 260px;
+    object-fit: cover;
+}
+.page-info {
+    display: flex;
+    justify-content: space-between;
+}
+.page-name {
+    background: #54101d;
+    width: 150px;
+    height: 138px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-top: -64px;
+}
+.page-menu ul {
+    display: flex;
+    margin: 0;
+    padding-top: 8px;
+}
+.page-menu ul a {
+    color: #291f22;
+    margin: 0 10px;
+}
+.page-menu ul li:last-child a {
+    margin-right: 0;
+}
+.member {
+    background: #fff;
+    box-shadow: 0 0 1px 0 #ccc;
+    height: 100%;
+}
+.member a span {
+    color: #b7b4b5;
+}
+.member a {
+    color: #000415;
+}
+.member a img {
+    filter: grayscale(100%);
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 990px;
