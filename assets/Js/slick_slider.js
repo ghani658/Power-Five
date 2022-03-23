@@ -43,6 +43,16 @@ $(document).ready(function(){
   		focusOnSelect: true
 	});
 
+  $('.variable-width').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false
+  });
+
 });
 
 $(function() {
