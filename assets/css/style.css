@@ -289,6 +289,24 @@ img.banner-img {
 .me-text p {
     margin-bottom: 10px;
 }
+.quote {
+    position: relative;
+    color: #110109;
+}
+.quote-icon {
+    width: 17px;
+    position: absolute;
+    left: 0;
+}
+.quote h5 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+}
+.quote p {
+    color: #110109;
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 990px;
