@@ -266,6 +266,29 @@ img.banner-img {
 .member a img {
     filter: grayscale(100%);
 }
+.m-info .page-name {
+    background: #54101d;
+    min-width: 150px;
+    justify-content: flex-start;
+    width: 100%;
+}
+.m-detail {
+    position: relative;
+}
+.m-detail span {
+    color: #879192;
+}
+.m-detail:after {
+    content: '';
+    width: 48px;
+    height: 3px;
+    background: #54101f;
+    position: absolute;
+    bottom: -8px;
+}
+.me-text p {
+    margin-bottom: 10px;
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 990px;
