@@ -307,6 +307,62 @@ img.banner-img {
 .quote p {
     color: #110109;
 }
+.primary-section::before {
+    content: '';
+    width: 43px;
+    height: 5px;
+    margin-right: 20px;
+    background: #54101d;
+    margin-top: 9px;
+}
+.primary-section h1 {
+    font-size: 20px;
+    color: #080020;
+    display: flex;
+    align-items: center;
+}
+.primary-section p {
+    color: #938693;
+    margin-bottom: 10px;
+}
+.p-content {
+    flex: 1;
+}
+.cr-member .member {
+    background: transparent;
+    box-shadow: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cr-member .member a {
+    color: #fff;
+}
+.cr-member .member a span {
+    color: #ffffff;
+}
+.list li {
+    color: #938693;
+    display: flex;
+    align-items: center;
+}
+.list li i {
+    color: #54101d;
+    margin-right: 10px;
+}
+.primary-btn.dark {
+    background: #080020;
+    border: 1px solid #080020;
+}
+.chose {
+    overflow: hidden;
+}
+.fi-logo.cr-logo img {
+    height: 45px;
+    width: auto;
+    margin: 0 40px;
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 990px;
