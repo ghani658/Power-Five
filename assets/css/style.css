@@ -374,6 +374,58 @@ img.banner-img {
     min-height: 200px;
     justify-content: space-between;
 }
+.c-info img {
+    width: 30px;
+}
+h5.section-heading {
+    position: relative;
+}
+h5.section-heading span {
+    background: #fff;
+    position: relative;
+    padding-right: 10px;
+}
+h5.section-heading:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #dee2e6;
+    left: 0px;
+    top: 12px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 13px;
+    outline: none;
+    margin-bottom: 13px;
+}
+.form-btn {
+    display: flex;
+}
+.capcha {
+    display: flex;
+    align-items: center;
+    color: #938693;
+}
+.contact-form .capcha input {
+    width: 60px;
+    padding: 7px 10px;
+    border: 1px solid #dee2e6;
+    margin: 0;
+}
+.form-btn button {
+    border: 0;
+    color: #fff;
+    padding: 0 16px;
+}
+.map-area iframe {
+    border: 0;
+    width: 100%;
+    flex: 1;
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 990px;
