@@ -195,11 +195,11 @@ p {
 .letter-s {
     letter-spacing: 5px;
 }
-.primary-heading.sub span {
+.primary-heading.sub span, .p-content .sub span {
     display: flex;
     flex-direction: column;
 }
-.primary-heading.sub small {
+.primary-heading.sub small, .p-content .sub span small {
     color: #938693;
     font-size: 12px;
     letter-spacing: 1px;
@@ -425,6 +425,25 @@ h5.section-heading:before {
     border: 0;
     width: 100%;
     flex: 1;
+}
+.ci-info {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    border: 1px solid #b57f5e;
+    border-radius: 100%;
+}
+.info-txt {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
 @media (min-width: 1200px) {
     .container {
