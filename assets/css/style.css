@@ -462,12 +462,14 @@ h5.section-heading:before {
     position: absolute;
     z-index: 1000;
     display: none;
+    min-width: 100%;
 }
 .nav-items li .submenu a {
     color: #070707;
     padding: 10px 13px;
     font-size: 13px;
     text-transform: capitalize;
+    white-space: nowrap;
 }
 .nav-items li:hover > .submenu {
     display: flex;
@@ -475,8 +477,61 @@ h5.section-heading:before {
 .nav-items li {
     position: relative;
 }
+.banner .slick-track, .banner .slick-list {
+    height: 100%;
+}
+.mobile-menu {
+    display: none;
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 990px;
+    }
+}
+@media (max-width: 1000px) {
+    .mobile-menu {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-menu, .client-login {
+        display: none;
+    }
+    .mobile-menu a {
+        color: #fff;
+        font-size: 20px;
+        line-height: normal;
+    }
+    .list-menu {
+        position: absolute;
+        left: 0;
+        top: 34px;
+        background: #fff;
+        right: 0;
+        display: none;
+    }
+    .mobile-menu .list-menu li {
+        padding: 8px 10px;
+        border-bottom: 1px solid;
+        position: relative;
+    }
+    .mobile-menu .list-menu li i {
+        position: absolute;
+        right: 9px;
+        top: 10px;
+        cursor: pointer;
+        padding: 0 10px;
+    }
+    .mobile-menu .list-menu a {
+        color: #000;
+        font-size: 16px;
+    }
+    .list-menu .submenu {
+        display: none;
+    }
+    .mobile-menu .list-menu .submenu a {
+        display: block;
+        padding: 10px 0 0px 12px;
     }
 }
