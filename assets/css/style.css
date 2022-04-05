@@ -89,7 +89,7 @@ header {
     align-items: center;
 }
 .banner {
-    height: calc(100vh - 151px);
+    height: calc(100vh - 210px);
 }
 .slider {
     background: url(../images/banner.jpg);
