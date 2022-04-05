@@ -535,3 +535,52 @@ h5.section-heading:before {
         padding: 10px 0 0px 12px;
     }
 }
+@media (max-width: 768px) {
+    .banner {
+        height: 325px;
+    }
+    .slider h1 {
+        font-size: 2rem;
+        line-height: 37px;
+    }
+    .slider p {
+        font-size: 13px;
+    }
+    .banner-btn {
+        justify-content: center !important;
+    }
+    .slick-next {
+        right: 34px;
+    }
+    .slick-prev {
+        left: 34px;
+    }
+    .no-md-border .border-right {
+        border: 0 !important;
+    }
+    footer {
+        text-align: center;
+    }
+    .page-info {
+        flex-direction: column;
+    }
+    .page-menu ul {
+        justify-content: space-between;
+    }
+    .page-menu ul a {
+        font-size: 10px;
+    }
+    .mb-fc {
+        flex-direction: column;
+    }
+    .no-m-br br {
+        display: none;
+    }
+    .page-menu.res-menu ul {
+        justify-content: space-around !important;
+        flex-wrap: wrap;
+    }
+    .page-name.c-page-name {
+        margin-top: 30px;
+    }
+}
